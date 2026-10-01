@@ -1,12 +1,10 @@
 # Fry & Fork website
 
 > **Two versions, same design:**
-> - **`fry-and-fork-next/`**: the **Next.js** version (recommended for going live on Vercel). See its own README.
-> - **`website/`**: the original plain HTML/CSS/JS version, kept as a backup. It needs no installation.
+> - **`fry-and-fork-next/`**: the **Next.js** version, live on Vercel at https://fry-and-fork.vercel.app. See its own README.
+> - **`website/`**: the original plain HTML/CSS/JS version, kept as a backup and live on GitHub Pages at https://jaffry12.github.io/fry-and-fork/. It needs no installation.
 >
 > The rest of this file describes the design and the static version. Both versions get their menu data from `tools/build_menu.py`.
->
-> **Live:** https://jaffry12.github.io/fry-and-fork/ (the `website/` folder on GitHub Pages; see "Put it live").
 
 A one-page website for **Fry & Fork**, 135 Link Street, Kirkcaldy KY1 1QR (01592 264123).
 
@@ -52,7 +50,9 @@ Every size of every item follows this rule, including the meal deals, kids meals
 
 ## Put it live
 
-**It's live on GitHub Pages** at https://jaffry12.github.io/fry-and-fork/, from the repository github.com/Jaffry12/fry-and-fork. Every push to `main` runs `.github/workflows/pages.yml`, which publishes the `website/` folder in about a minute (progress is under the repository's **Actions** tab). Nothing is built: the folder goes up as it is, except that the workflow gives the share picture (`og:image`, and `image` and `logo` in the JSON-LD block) the site's full address, which link previews need. To move to the shop's own domain later, add it under the repository's **Settings → Pages → Custom domain**; the share picture's address follows automatically.
+The Next.js version is live on Vercel at https://fry-and-fork.vercel.app; `fry-and-fork-next/README.md` explains how it deploys.
+
+**This static version is live on GitHub Pages** at https://jaffry12.github.io/fry-and-fork/, from the repository github.com/Jaffry12/fry-and-fork. Every push to `main` runs `.github/workflows/pages.yml`, which publishes the `website/` folder in about a minute (progress is under the repository's **Actions** tab). Nothing is built: the folder goes up as it is, except that the workflow gives the share picture (`og:image`, and `image` and `logo` in the JSON-LD block) the site's full address, which link previews need. To move to the shop's own domain later, add it under the repository's **Settings → Pages → Custom domain**; the share picture's address follows automatically.
 
 The folder works on any other static host too: upload the **contents of `website/`** to Netlify (drag the folder onto app.netlify.com/drop), Cloudflare Pages or ordinary cPanel hosting. There's nothing to install or build.
 

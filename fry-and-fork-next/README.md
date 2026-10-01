@@ -22,12 +22,12 @@ npm start          # http://localhost:3000
 
 ## Put it live
 
-The easiest option is **[Vercel](https://vercel.com)** (made by the Next.js team, free for a site like this):
+It's live on **[Vercel](https://vercel.com)** (made by the Next.js team) at https://fry-and-fork.vercel.app. The Vercel project `fry-and-fork` builds this folder (its **Root Directory** is `fry-and-fork-next`) from the GitHub repository Jaffry12/fry-and-fork.
 
-1. Push this folder to a GitHub repository.
-2. On Vercel, choose **Add New → Project**, pick the repository and press **Deploy**. It detects Next.js automatically.
-3. Under **Settings → Environment Variables**, add `NEXT_PUBLIC_SITE_URL` with the site's real address (e.g. `https://www.frynfork.co.uk`), then redeploy. It's used for the social-share picture and search-engine details. See `.env.example`.
-4. Add the shop's domain under **Settings → Domains**.
+- **Updating it:** once the repository is connected to the project (on Vercel: the project's **Settings → Git**), every push to `main` deploys automatically. Without that connection, run `vercel deploy --prod` from the repository root.
+- **Share picture and search-engine details** use the project's production address on their own (https://fry-and-fork.vercel.app, or the shop's domain once it's added). To use a different address, set `NEXT_PUBLIC_SITE_URL` under **Settings → Environment Variables** and redeploy. See `.env.example`.
+- **The shop's domain:** add it under **Settings → Domains**.
+- **Plan:** Vercel's free Hobby plan is for non-commercial use only. A business's live site needs the Pro plan (or a Vercel account of the shop's own on Pro).
 
 Netlify and any Node.js host also work (`npm run build` then `npm start`).
 
