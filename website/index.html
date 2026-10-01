@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fry &amp; Fork | Fish &amp; Chips, Pizza &amp; Pasta in Kirkcaldy</title>
+  <meta name="description" content="Fry & Fork, 135 Link Street, Kirkcaldy. Fish suppers, pizza on fresh homemade dough, chef-cooked pasta, burgers, kebabs and homemade pakora. Open 7 days from 3pm. Call 01592 264123 to order.">
+  <meta name="theme-color" content="#0B1A2C">
+  <script>document.documentElement.classList.add('js')</script>
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Social sharing. Link previews (WhatsApp, Facebook) need og:image as a full address.
+       On GitHub Pages the deploy workflow (.github/workflows/pages.yml) adds the site's
+       address; on any other host, write it in (e.g. https://your-domain.co.uk/images/og-image.jpg). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fry &amp; Fork">
+  <meta property="og:title" content="Fry &amp; Fork | Fish &amp; Chips, Pizza &amp; Pasta in Kirkcaldy">
+  <meta property="og:description" content="From fryer to fork. Fish suppers, fresh-dough pizza and chef-cooked pasta on Link Street, Kirkcaldy. Open 7 days from 3pm.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="images/hero-bg-1000.webp" media="(max-width: 700px)">
+  <link rel="preload" as="image" href="images/hero-bg-1672.webp" media="(min-width: 701px)">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Browsers refuse self-hosted web fonts on a page opened straight from disk (file://).
+    // For that local preview only, load the same fonts from Google Fonts instead.
+    if (location.protocol === 'file:') {
+      var gf = document.createElement('link');
+      gf.rel = 'stylesheet';
+      gf.href = 'https://fonts.googleapis.com/css2?family=Caveat:wght@500..700&family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,500..900&family=Manrope:wght@400..800&display=swap';
+      document.head.appendChild(gf);
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Fry & Fork",
+    "slogan": "From Fryer to Fork",
+    "description": "Fish and chips, pizza, pasta, burgers, kebabs and homemade pakora in Kirkcaldy.",
+    "image": "images/og-image.jpg",
+    "logo": "icon-512.png",
+    "telephone": "+44 1592 264123",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "135 Link Street",
+      "addressLocality": "Kirkcaldy",
+      "postalCode": "KY1 1QR",
+      "addressCountry": "GB"
+    },
+    "servesCuisine": ["Fish and chips", "Pizza", "Italian", "Burgers", "Kebabs"],
+    "priceRange": "£",
+    "paymentAccepted": "Credit card, Debit card",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "15:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "15:00", "closes": "23:30" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to the menu</a>
+
+  <!-- Icon sprite -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 1.5c.7 5.3 2.6 8 10.5 10.5-7.9 2.5-9.8 5.2-10.5 10.5-.7-5.3-2.6-8-10.5-10.5C9.4 9.5 11.3 6.8 12 1.5Z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-chilli" viewBox="0 0 24 24"><path d="M18.4 7.6c-1.7-1-3.6-.5-4.6 1-1.5 2.3-2.9 4.7-5.9 6.8-1.6 1.1-3.4 1.8-5.4 2.1 3 2.8 8.7 2.9 12.6-.3 3.3-2.7 4.9-6.2 3.3-9.6Z"/><path d="M18.4 7.6c.2-2 1.2-3.3 3-4"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/><path d="M6 17h12"/></symbol>
+    <symbol id="i-wheat" viewBox="0 0 24 24"><path d="M2 22 16 8"/><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"/><path d="M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/></symbol>
+    <symbol id="i-pot" viewBox="0 0 24 24"><path d="M2 12h20"/><path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"/><path d="m4 8 16-4"/><path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><path d="m3 11 19-9-9 19-2-8-8-2z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></symbol>
+    <symbol id="i-sprig" viewBox="0 0 60 104" overflow="visible"><path d="M26 98Q22 52 34 6" vector-effect="non-scaling-stroke"/><g transform="translate(25.0 79.6) rotate(-133.0) scale(0.93)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g><g transform="translate(25.2 64.9) rotate(-45.8) scale(0.87)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g><g transform="translate(26.2 50.2) rotate(-126.6) scale(0.82)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g><g transform="translate(28.0 35.4) rotate(-39.5) scale(0.76)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g><g transform="translate(30.6 20.7) rotate(-120.4) scale(0.71)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g><g transform="translate(34.0 6.0) rotate(-75.4) scale(0.62)"><path d="M0 0C6 -7 18 -8 27 0C18 8 6 7 0 0Z" vector-effect="non-scaling-stroke"/><path d="M3 0H22" vector-effect="non-scaling-stroke"/></g></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-twirl" viewBox="0 0 110 200"><path d="M55.5 101C55 112 53 150 53.5 186Q58 195 62.5 186C63 150 61 112 60.5 101" vector-effect="non-scaling-stroke"/><path d="M45.5 40V82C45.5 93 52 98 55.5 101M70.5 40V82C70.5 93 64 98 60.5 101" vector-effect="non-scaling-stroke"/><path d="M53.5 38V86Q58 93 62.5 86V38" vector-effect="non-scaling-stroke"/><path d="M40 50C46 58 72 58 77 52C76 47 44 49 37 57C43 66 74 66 80 60C79 55 42 58 36 66C42 75 74 75 79 68C77 64 46 67 40 75C46 83 70 83 75 77" vector-effect="non-scaling-stroke"/><path d="M75 77C81 86 79 97 71 105C65 111 67 119 73 125" vector-effect="non-scaling-stroke"/><path d="M40 75C34 86 35 97 42 106" vector-effect="non-scaling-stroke"/><path d="M51 27C47 21 55 17 51 10M65 25C61 19 69 15 65 8" vector-effect="non-scaling-stroke"/><path fill="currentColor" stroke="none" transform="translate(82.86 28.86) scale(0.762)" d="M12 1.5c.7 5.3 2.6 8 10.5 10.5-7.9 2.5-9.8 5.2-10.5 10.5-.7-5.3-2.6-8-10.5-10.5C9.4 9.5 11.3 6.8 12 1.5Z"/><path fill="currentColor" stroke="none" transform="translate(15.29 82.29) scale(0.476)" d="M12 1.5c.7 5.3 2.6 8 10.5 10.5-7.9 2.5-9.8 5.2-10.5 10.5-.7-5.3-2.6-8-10.5-10.5C9.4 9.5 11.3 6.8 12 1.5Z"/><path fill="currentColor" stroke="none" transform="translate(93.57 56.57) scale(0.286)" d="M12 1.5c.7 5.3 2.6 8 10.5 10.5-7.9 2.5-9.8 5.2-10.5 10.5-.7-5.3-2.6-8-10.5-10.5C9.4 9.5 11.3 6.8 12 1.5Z"/></symbol>
+    <symbol id="i-fish" viewBox="0 0 52 32"><path d="M42 16C36 5 17 4 5 16C17 28 36 27 42 16Z" vector-effect="non-scaling-stroke"/><path d="M42 16C45 12 47 9 50 7C48 12 48 20 50 25C47 23 45 20 42 16Z" vector-effect="non-scaling-stroke"/><path d="M19 10Q23 16 19 22M27 12Q30 16 27 20M33 13Q35.5 16 33 19M24 23Q27 28 32 25" vector-effect="non-scaling-stroke"/><circle cx="12.5" cy="14" r="1.6" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-slice" viewBox="0 0 48 48"><path d="M5.5 9.5Q23.5 0.5 43 7.5L41 11.5Q23.5 5 7.5 13.5Z" vector-effect="non-scaling-stroke"/><path d="M7.5 13.5L19.5 45L41 11.5" vector-effect="non-scaling-stroke"/><path d="M13 29.5Q12 34.5 14.5 35.5Q16.5 35 15.6 31" vector-effect="non-scaling-stroke"/><circle cx="18" cy="20.5" r="2.9" vector-effect="non-scaling-stroke"/><circle cx="28.5" cy="19" r="2.6" vector-effect="non-scaling-stroke"/><circle cx="22.5" cy="30" r="2.4" vector-effect="non-scaling-stroke"/><circle cx="33" cy="25" r="0.9" fill="currentColor" stroke="none"/><circle cx="14.5" cy="17" r="0.8" fill="currentColor" stroke="none"/><circle cx="25.5" cy="37" r="0.8" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-cheese" viewBox="0 0 56 44"><path d="M4 38V22L44 6L54 14V32Z" vector-effect="non-scaling-stroke"/><path d="M4 22L54 14" vector-effect="non-scaling-stroke"/><circle cx="19" cy="29" r="2.8" vector-effect="non-scaling-stroke"/><circle cx="33.5" cy="24.5" r="2" vector-effect="non-scaling-stroke"/><circle cx="45" cy="27.5" r="3" vector-effect="non-scaling-stroke"/><circle cx="11" cy="33.5" r="1.5" vector-effect="non-scaling-stroke"/><circle cx="27" cy="33" r="1.3" vector-effect="non-scaling-stroke"/><path d="M30 8.5Q33 12 36.5 8.8" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 32 44"><path d="M16 42C6 42 2 34 4 26C6 19 11 16 11 8C16 12 19 17 18 22C20 20 21 17 21 14C27 20 30 27 28 33C27 39 22 42 16 42Z" vector-effect="non-scaling-stroke"/><path d="M16 38C11 38 9 33 11 29C12 26 15 24 15 20C19 24 21 28 20 32C20 35 18 38 16 38Z" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 30 48"><path d="M5 14Q15 7 25 14" vector-effect="non-scaling-stroke"/><path d="M2 14H28V17.5H2Z" vector-effect="non-scaling-stroke"/><path d="M4 17.5L7 45.5H23L26 17.5" vector-effect="non-scaling-stroke"/><path d="M5.3 27H24.7M6.2 35H23.8" vector-effect="non-scaling-stroke"/><path d="M16.5 9.5L20.5 1.5H25.5" vector-effect="non-scaling-stroke"/><circle cx="9.5" cy="31" r="0.9" fill="currentColor" stroke="none"/><circle cx="20.5" cy="31" r="0.9" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-fries" viewBox="0 0 40 48"><path d="M9.2 22.4L7 8.5L11 8L12.8 23.4M14.4 23.8L13.5 3.5H17.5L17.8 24.2M21.4 24.2L22 5.5L26 6L24.8 23.8M27.6 23.2L29.5 9L33.5 10L30.8 22.2" vector-effect="non-scaling-stroke"/><path d="M5 20L10 46H30L35 20" vector-effect="non-scaling-stroke"/><path d="M5 20Q20 28 35 20" vector-effect="non-scaling-stroke"/><path d="M7.3 31H32.7M7.9 34H32.1" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-olive" viewBox="-2.9 -3.3 59.0 59.0"><g fill="currentColor" stroke="none"><path d="M17 41Q23 25 37 9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path fill-rule="evenodd" transform="translate(37.0 9.0) rotate(-48.8)" d="M0 0C3.60 -3.80 10.20 -3.80 15.00 0C10.20 3.80 3.60 3.80 0 0ZM3.00 0.23C6.30 -0.99 9.30 -0.99 12.00 -0.23C9.30 -0.23 6.30 -0.15 3.00 0.23Z"/><path fill-rule="evenodd" transform="translate(30.3 17.3) rotate(-111.3)" d="M0 0C3.60 -3.60 10.20 -3.60 15.00 0C10.20 3.60 3.60 3.60 0 0ZM3.00 0.22C6.30 -0.94 9.30 -0.94 12.00 -0.22C9.30 -0.22 6.30 -0.14 3.00 0.22Z"/><path fill-rule="evenodd" transform="translate(25.8 23.7) rotate(-7.2)" d="M0 0C4.08 -4.00 11.56 -4.00 17.00 0C11.56 4.00 4.08 4.00 0 0ZM3.40 0.24C7.14 -1.04 10.54 -1.04 13.60 -0.24C10.54 -0.24 7.14 -0.16 3.40 0.24Z"/><path fill-rule="evenodd" transform="translate(21.3 31.4) rotate(-124.3)" d="M0 0C3.36 -3.50 9.52 -3.50 14.00 0C9.52 3.50 3.36 3.50 0 0ZM2.80 0.21C5.88 -0.91 8.68 -0.91 11.20 -0.21C8.68 -0.21 5.88 -0.14 2.80 0.21Z"/><path fill-rule="evenodd" transform="translate(17.2 40.4) rotate(127.1)" d="M0 0C4.32 -4.30 12.24 -4.30 18.00 0C12.24 4.30 4.32 4.30 0 0ZM3.60 0.26C7.56 -1.12 11.16 -1.12 14.40 -0.26C11.16 -0.26 7.56 -0.17 3.60 0.26Z"/><ellipse cx="10.6" cy="34.4" rx="3.7" ry="2.8" transform="rotate(-24 10.6 34.4)"/></g></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-pin-solid" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" fill-rule="evenodd" d="M12 22.5s8.2-6.1 8.2-12.3a8.2 8.2 0 1 0-16.4 0c0 6.2 8.2 12.3 8.2 12.3Zm0-9.2a3.1 3.1 0 1 0 0-6.2 3.1 3.1 0 0 0 0 6.2Z"/></symbol>
+    <symbol id="i-phone-solid" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-clock-solid" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" fill-rule="evenodd" d="M12 1.8a10.2 10.2 0 1 0 0 20.4 10.2 10.2 0 0 0 0-20.4Zm-1.1 4.6h2.2v5.2l3.7 2.2-1.1 1.9-4.8-2.9Z"/></symbol>
+    <symbol id="i-m-bag" viewBox="0 0 48 48"><path d="M9 17H39L36.5 44H11.5Z" vector-effect="non-scaling-stroke"/><path d="M17 17V13A7 7 0 0 1 31 13V17" vector-effect="non-scaling-stroke"/><path fill="currentColor" stroke="none" d="M24 23.5c.4 3 1.5 4.6 6 6-4.5 1.4-5.6 3-6 6-.4-3-1.5-4.6-6-6 4.5-1.4 5.6-3 6-6Z"/></symbol>
+    <symbol id="i-m-calzone" viewBox="0 0 48 48"><path d="M4.5 38Q4.5 18 24 16Q43.5 18 43.5 38Z" vector-effect="non-scaling-stroke"/><path d="M8.5 34.5Q9 21.5 24 20Q39 21.5 39.5 34.5" vector-effect="non-scaling-stroke"/><path d="M9 38V34.8M15 38V34.8M21 38V34.8M27 38V34.8M33 38V34.8M39 38V34.8" vector-effect="non-scaling-stroke"/><path d="M19 26.5L22 29M26 25L29 27.5" vector-effect="non-scaling-stroke"/><path d="M20 12C18 9.5 21 8 19 5M28 12C26 9.5 29 8 27 5" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-pasta" viewBox="0 0 48 48"><path d="M6 26H42Q41 40 24 41.5Q7 40 6 26Z" vector-effect="non-scaling-stroke"/><path d="M18.5 41.5V44H29.5V41.5" vector-effect="non-scaling-stroke"/><path d="M10 26C12 21 15 21 16.5 26C18 21 21 21 22.5 26C24 21 27 21 28.5 26C30 21 33 21 34.5 26C35.5 22.5 37 22.5 38 26" vector-effect="non-scaling-stroke"/><path d="M33 21.5V13M30 5V10.5Q33 14 36 10.5V5M33 5V10" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-risotto" viewBox="0 0 48 48"><path d="M6 26H42Q41 40 24 41.5Q7 40 6 26Z" vector-effect="non-scaling-stroke"/><path d="M18.5 41.5V44H29.5V41.5" vector-effect="non-scaling-stroke"/><path d="M10 26Q16 17 24 18.5Q32 17 38 26" vector-effect="non-scaling-stroke"/><circle cx="16" cy="22.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="21" cy="20.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="27" cy="21" r="0.9" fill="currentColor" stroke="none"/><circle cx="32" cy="23" r="0.9" fill="currentColor" stroke="none"/><circle cx="24" cy="23.5" r="0.9" fill="currentColor" stroke="none"/><ellipse cx="34" cy="10" rx="3.2" ry="5" transform="rotate(35 34 10)" vector-effect="non-scaling-stroke"/><path d="M31.2 14.2L24.5 22.5" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-bread" viewBox="0 0 48 48"><path d="M5 31Q5 17 24 17Q43 17 43 31Q43 37 37 37H11Q5 37 5 31Z" vector-effect="non-scaling-stroke"/><path d="M13 23.5L17 29M21.5 22L25.5 27.5M30 22.5L34 28" vector-effect="non-scaling-stroke"/><circle cx="15" cy="32" r="0.8" fill="currentColor" stroke="none"/><circle cx="27" cy="33" r="0.8" fill="currentColor" stroke="none"/><circle cx="36" cy="31.5" r="0.8" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-m-burger" viewBox="0 0 48 48"><path d="M8 22Q8 9.5 24 9.5Q40 9.5 40 22Z" vector-effect="non-scaling-stroke"/><circle cx="17" cy="15" r="0.8" fill="currentColor" stroke="none"/><circle cx="23" cy="13" r="0.8" fill="currentColor" stroke="none"/><circle cx="29" cy="15.5" r="0.8" fill="currentColor" stroke="none"/><circle cx="33" cy="18" r="0.8" fill="currentColor" stroke="none"/><path d="M7 26Q10 23 13 26T19 26T25 26T31 26T37 26T41 26" vector-effect="non-scaling-stroke"/><path d="M8 29.5H40V33.5Q40 35.5 38 35.5H10Q8 35.5 8 33.5Z" vector-effect="non-scaling-stroke"/><path d="M8 38.5H40Q40 43.5 35 43.5H13Q8 43.5 8 38.5Z" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-kebab" viewBox="0 0 48 48"><path d="M24 7V46" vector-effect="non-scaling-stroke"/><circle cx="24" cy="4.6" r="2.3" vector-effect="non-scaling-stroke"/><path d="M17.5 10.5H30.5Q32 10.5 32 12V16Q32 17.5 30.5 17.5H17.5Q16 17.5 16 16V12Q16 10.5 17.5 10.5Z" vector-effect="non-scaling-stroke"/><circle cx="24" cy="23.5" r="4.8" vector-effect="non-scaling-stroke"/><path d="M16.5 30H31.5Q33 30 33 31.5V35.5Q33 37 31.5 37H16.5Q15 37 15 35.5V31.5Q15 30 16.5 30Z" vector-effect="non-scaling-stroke"/><path d="M18 41.5Q24 38.5 30 41.5" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-chicken" viewBox="0 0 48 48"><path d="M31.5 6.5C40.5 5.5 45 15.5 39.5 23.5C35.5 29.5 28 30.5 24.5 27C21 23.5 22 14.5 31.5 6.5Z" vector-effect="non-scaling-stroke"/><path d="M24.5 27L14 37.5M22 25L11.5 35.5" vector-effect="non-scaling-stroke"/><circle cx="9.5" cy="38" r="2.8" vector-effect="non-scaling-stroke"/><circle cx="12.8" cy="41.3" r="2.8" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-pakora" viewBox="0 0 48 48"><path d="M6.5 33C5 28 9.5 24.5 13.5 26C16 22.5 22 23.5 22.5 28C26 30 24.5 36 20.5 36.5C18.5 40 12.5 40 11 36.5C7.5 37 6 35 6.5 33Z" vector-effect="non-scaling-stroke"/><path d="M25 36C24 31.5 28 28.5 31.5 30C34 27 39.5 28 40 32C43.5 34 42 39.5 38 40C36 43 30 43 28.5 39.5C25.5 40 24.5 38 25 36Z" vector-effect="non-scaling-stroke"/><path d="M15.5 22C14 17 18 14 21.5 15.5C24 12.5 29.5 13.5 30 17.5C33 19 32 23.5 29 24" vector-effect="non-scaling-stroke"/><path d="M13 31Q15 29 17 31M30 35Q32 33 34 35M21 19Q23 17.5 25 19" vector-effect="non-scaling-stroke"/><path d="M35 11C33 8.5 36 7 34 4" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-roll" viewBox="0 0 48 48"><path d="M5 30Q5 13 24 13Q43 13 43 30Q43 35 38 35H10Q5 35 5 30Z" vector-effect="non-scaling-stroke"/><path d="M9 26Q24 21.5 39 26" vector-effect="non-scaling-stroke"/><circle cx="16" cy="18.5" r="0.8" fill="currentColor" stroke="none"/><circle cx="22" cy="17" r="0.8" fill="currentColor" stroke="none"/><circle cx="28" cy="17.5" r="0.8" fill="currentColor" stroke="none"/><circle cx="33" cy="20" r="0.8" fill="currentColor" stroke="none"/><path d="M10 39.5H38" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-leaf" viewBox="0 0 48 48"><path d="M9 39C9 21 21 8 40 8C40 27 28 39 9 39Z" vector-effect="non-scaling-stroke"/><path d="M11 37L33 15" vector-effect="non-scaling-stroke"/><path d="M17 31H24.5M21 27V20M26 22H31.5M25.5 18V14" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-rings" viewBox="0 0 48 48"><ellipse cx="17" cy="28" rx="11.5" ry="9" transform="rotate(-18 17 28)" vector-effect="non-scaling-stroke"/><ellipse cx="17" cy="28" rx="6" ry="4.3" transform="rotate(-18 17 28)" vector-effect="non-scaling-stroke"/><ellipse cx="32" cy="20" rx="10.5" ry="8.2" transform="rotate(14 32 20)" vector-effect="non-scaling-stroke"/><ellipse cx="32" cy="20" rx="5.3" ry="3.9" transform="rotate(14 32 20)" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-lolly" viewBox="0 0 48 48"><circle cx="20" cy="19" r="13" vector-effect="non-scaling-stroke"/><path d="M20 19C20 17 23 17 23 19.5C23 23 17.5 23.5 16.5 19.5C15.5 14.5 22.5 12 26 16C29.5 20.5 26.5 27 20.5 27.5C13.5 28 9.5 22 11 16" vector-effect="non-scaling-stroke"/><path d="M29.5 28L40 45" vector-effect="non-scaling-stroke"/><path d="M27 32.5Q24.5 36 26 38Q29 36.5 29 33.5Q31.5 36 34.5 34.5Q33 31.5 29.5 31.5" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-m-icecream" viewBox="0 0 48 48"><path d="M15.5 25L24 45.5L32.5 25" vector-effect="non-scaling-stroke"/><path d="M18 30.5L28.5 36M30 30.5L19.5 36M20.5 37L25.5 40" vector-effect="non-scaling-stroke"/><path d="M13 25Q10.5 17.5 17 15Q18.5 9 24.5 10Q31 9 32 15Q38 17.5 35 25Z" vector-effect="non-scaling-stroke"/><path d="M19 20Q21 22 23 20" vector-effect="non-scaling-stroke"/><circle cx="26" cy="6.5" r="2.2" fill="currentColor" stroke="none"/><path d="M26 4.5Q27 2 29.5 1.5" vector-effect="non-scaling-stroke"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4M12 17h.01"/></symbol>
+  </svg>
+
+  <!-- ============ Header ============ -->
+  <!-- No id="top" on the sticky header: with no such element, "#top" links scroll to the
+       top of the page (an element that is always on screen would never be scrolled to). -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Fry &amp; Fork, back to top">
+        <img src="images/logo-sm.webp" width="176" height="176" alt="">
+        <span class="brand-text">
+          <span class="brand-name">Fry <span class="amp">&amp;</span> Fork</span>
+          <span class="brand-tag">Fish &amp; Chips · Pizza · Pasta</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#top" data-spy="top" aria-current="true">Home</a></li>
+          <li><a href="#menu" data-spy="menu">Menu</a></li>
+          <li><a href="menu.html#cat-deals">Meal deals</a></li>
+          <li><a href="#kitchen" data-spy="kitchen">Our kitchen</a></li>
+          <li><a href="#contact" data-spy="contact">Find us</a></li>
+        </ul>
+        <div class="nav-extra">
+          <p class="nav-status"><span class="status-dot" data-status-dot></span><span data-status-long>Open 7 days from 3pm</span></p>
+          <a class="btn btn-sand btn-block" href="tel:+441592264123">
+            <svg class="icon"><use href="#i-phone"/></svg>Call 01592 264123
+          </a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn header-call" href="tel:+441592264123">Call to Order<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+        <button class="icon-btn order-btn" type="button" data-open-order aria-label="Your order: empty">
+          <svg class="icon"><use href="#i-bag"/></svg>
+          <span class="order-count" data-order-count hidden>0</span>
+        </button>
+        <span class="order-sum" data-order-sum hidden>£0.00</span>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <!-- Full-screen photo hero: copy on the dark left, a glass strip of three promises,
+         a scroll cue and a handwritten note. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <picture>
+          <source media="(max-width: 700px)" srcset="images/hero-bg-1000.webp">
+          <img src="images/hero-bg-1672.webp" width="1672" height="941" alt="" fetchpriority="high">
+        </picture>
+      </div>
+      <svg class="hero-sprig" viewBox="0 0 360 330" aria-hidden="true" focusable="false"><defs><linearGradient id="sprigA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b3a1b"/><stop offset=".55" stop-color="#687c3f"/><stop offset="1" stop-color="#34451f"/></linearGradient><linearGradient id="sprigB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#222e15"/><stop offset=".6" stop-color="#546631"/><stop offset="1" stop-color="#2a391a"/></linearGradient></defs><path d="M0 320Q110 210 300 70" stroke="#3a2e1b" stroke-width="3.2" fill="none" stroke-linecap="round"/><g transform="translate(42.2 279.4) rotate(-80.9) scale(0.96)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigB)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(73.2 251.3) rotate(-3.6) scale(1.04)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(106.5 222.3) rotate(-78.5) scale(1.09)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(142.1 192.5) rotate(-1.5) scale(1.10)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigB)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(180.0 161.7) rotate(-76.6) scale(1.07)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(220.3 130.1) rotate(0.3) scale(1.00)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(262.8 97.7) rotate(-75.0) scale(0.90)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigB)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(300.0 70.0) rotate(-36.4) scale(0.81)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><path d="M70 250Q95 150 150 60" stroke="#3a2e1b" stroke-width="3.2" fill="none" stroke-linecap="round"/><g transform="translate(91.2 181.2) rotate(-107.8) scale(0.85)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigB)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(106.6 143.0) rotate(-28.3) scale(0.88)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(124.4 105.6) rotate(-100.8) scale(0.81)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigA)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g><g transform="translate(144.6 69.0) rotate(-21.4) scale(0.69)"><path d="M0 0C16 -10 52 -12 80 0C52 12 16 10 0 0Z" fill="url(#sprigB)"/><path d="M4 0H74" stroke="rgba(214,222,170,0.16)" stroke-width="1"/></g></svg>
+      <div class="container">
+        <div class="hero-copy">
+          <p class="hero-kicker">Good Food <span aria-hidden="true">•</span> Great Company</p>
+          <h1 id="hero-title">
+            <span class="visually-hidden">Fry &amp; Fork, fish &amp; chips, pizza &amp; pasta in Kirkcaldy: </span>
+            <span class="line">A Culinary</span>
+            <em class="line">Experience</em>
+            <span class="line">Like No Other</span>
+          </h1>
+          <p class="hero-lede">Fresh ingredients, bold flavours and golden fish suppers come together in our kitchen on Link Street, Kirkcaldy.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-sand" href="#menu">Explore Our Menu<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            <a class="btn btn-hero-outline" href="tel:+441592264123">Call to Order<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+          </div>
+        </div>
+        <ul class="hero-features">
+          <li><svg class="icon"><use href="#i-leaf"/></svg><b>Fresh Ingredients</b><span>Homemade dough &amp; sauce</span></li>
+          <li><svg class="icon"><use href="#i-chef"/></svg><b>Expert Chef</b><span>Pasta &amp; risotto made fresh</span></li>
+          <li><svg class="icon"><use href="#i-clock"/></svg><b>Open 7 Days</b><span data-status-long>Open 7 days from 3pm</span></li>
+        </ul>
+      </div>
+      <a class="hero-scroll" href="#explore"><span class="hero-scroll-mouse" aria-hidden="true"></span>Scroll down</a>
+      <div class="hero-frame" aria-hidden="true">
+        <p class="hero-note">Good Food<br>Brings People<br>Together<svg viewBox="0 0 120 16"><path d="M4 11c30-8 70-10 112-4"/></svg></p>
+      </div>
+    </section>
+
+    <!-- ============ Marquee ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Fish suppers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Fresh-dough pizza</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Chef-cooked pasta</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Pounder burgers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Kebabs &amp; wraps</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Homemade pakora</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Haggis suppers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Risotto</span><svg class="icon"><use href="#i-spark"/></svg>
+        </div>
+        <div class="marquee-group">
+          <span>Fish suppers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Fresh-dough pizza</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Chef-cooked pasta</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Pounder burgers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Kebabs &amp; wraps</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Homemade pakora</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Haggis suppers</span><svg class="icon"><use href="#i-spark"/></svg>
+          <span>Risotto</span><svg class="icon"><use href="#i-spark"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ Categories ============ -->
+    <!-- "Our menu": intro on the left, the six favourites as tilted, gold-trimmed photo cards.
+         On laptops and desktops it's laid out like the design (positions are % of each card)
+         and the whole canvas scales to fit one screen; smaller screens stack the cards. -->
+    <section class="section cats" id="explore" aria-labelledby="cats-title">
+      <svg class="sprite" aria-hidden="true" focusable="false"><defs><clipPath id="cc-clip-fish" clipPathUnits="objectBoundingBox"><path d="M0.0408,0.1877 L0.9195,0.0129 Q0.9537,0.0061 0.9555,0.0520 L0.9920,0.9482 Q0.9938,0.9941 0.9593,0.9917 L0.0517,0.9282 Q0.0171,0.9258 0.0164,0.8799 L0.0073,0.2404 Q0.0066,0.1945 0.0408,0.1877 Z"/></clipPath><clipPath id="cc-clip-pizza" clipPathUnits="objectBoundingBox"><path d="M0.1429,0.0943 L0.9547,0.0112 Q0.9924,0.0074 0.9910,0.0743 L0.9737,0.9237 Q0.9723,0.9905 0.9346,0.9871 L0.0463,0.9066 Q0.0087,0.9032 0.0165,0.8378 L0.0974,0.1636 Q0.1052,0.0981 0.1429,0.0943 Z"/></clipPath><clipPath id="cc-clip-pasta" clipPathUnits="objectBoundingBox"><path d="M0.0508,0.1393 L0.7836,0.0191 Q0.8263,0.0121 0.8373,0.0778 L0.9798,0.9250 Q0.9908,0.9906 0.9479,0.9880 L0.1446,0.9381 Q0.1017,0.9354 0.0938,0.8687 L0.0159,0.2131 Q0.0080,0.1463 0.0508,0.1393 Z"/></clipPath><clipPath id="cc-clip-burger" clipPathUnits="objectBoundingBox"><path d="M0.1297,0.0754 L0.8077,0.0167 Q0.8641,0.0118 0.8726,0.0780 L0.9813,0.9221 Q0.9899,0.9883 0.9334,0.9828 L0.0655,0.8993 Q0.0090,0.8938 0.0143,0.8272 L0.0680,0.1469 Q0.0732,0.0803 0.1297,0.0754 Z"/></clipPath><clipPath id="cc-clip-meal" clipPathUnits="objectBoundingBox"><path d="M0.1411,0.0125 L0.9291,0.0177 Q0.9897,0.0181 0.9865,0.0936 L0.9516,0.9129 Q0.9484,0.9884 0.8878,0.9871 L0.0724,0.9688 Q0.0118,0.9675 0.0172,0.8921 L0.0751,0.0874 Q0.0805,0.0121 0.1411,0.0125 Z"/></clipPath><clipPath id="cc-clip-sides" clipPathUnits="objectBoundingBox"><path d="M0.1395,0.0767 L0.8502,0.0152 Q0.9081,0.0102 0.9138,0.0770 L0.9854,0.9238 Q0.9911,0.9906 0.9332,0.9850 L0.0691,0.9020 Q0.0112,0.8964 0.0170,0.8296 L0.0758,0.1486 Q0.0816,0.0817 0.1395,0.0767 Z"/></clipPath></defs></svg>
+      <div class="container">
+        <div class="cats-canvas">
+          <div class="cats-intro reveal">
+            <svg class="cats-branch" aria-hidden="true"><use href="#i-twirl"/></svg>
+            <p class="cats-kicker"><svg class="cats-kicker-sprig" aria-hidden="true"><use href="#i-spark"/></svg>Our Menu</p>
+            <h2 id="cats-title">Something for <em>Every Craving</em></h2>
+            <p class="cats-lede">At Fry &amp; Fork, we bring together the best of British chippy favourites and authentic Italian classics, all made with fresh ingredients and a passion for great food.</p>
+          </div>
+          <a class="cc cc--fish" href="menu.html#cat-fish">
+            <figure class="cc-photo">
+              <img src="images/menu-fish.webp" width="520" height="392" loading="lazy" alt="Golden battered fish with chips, mushy peas, tartare sauce and lemon">
+              <svg class="cc-outline" viewBox="0 0 520 392" preserveAspectRatio="none" aria-hidden="true"><path d="M14.4,64.1 L492.9,-6.8 Q512.7,-9.7 513.8,10.3 L533.5,376.6 Q534.5,396.6 514.6,395.5 L20.7,370.2 Q0.7,369.2 0.3,349.2 L-4.9,87.1 Q-5.3,67.1 14.4,64.1 Z"/></svg>
+              <svg class="cc-stamp" viewBox="0 0 200 200" aria-hidden="true">
+                <defs>
+                  <path id="cc-arc-top" d="M30 100A70 70 0 0 1 170 100"/>
+                  <path id="cc-arc-bottom" d="M18 100A82 82 0 0 0 182 100"/>
+                </defs>
+                <circle cx="100" cy="100" r="96" class="cc-stamp-disc"/>
+                <text><textPath href="#cc-arc-top" startOffset="50%" text-anchor="middle">BRITISH CLASSICS</textPath></text>
+                <text><textPath href="#cc-arc-bottom" startOffset="50%" text-anchor="middle">FRESHLY PREPARED</textPath></text>
+                <circle cx="24" cy="100" r="2.6" class="cc-stamp-dot"/>
+                <circle cx="176" cy="100" r="2.6" class="cc-stamp-dot"/>
+                <use href="#i-fish" x="64" y="79" width="72" height="44" class="cc-stamp-fish"/>
+              </svg>
+            </figure>
+            <p class="cc-note cc-note--fish" aria-hidden="true"><span>Our</span><span>Signature</span><span>Classic</span><svg viewBox="0 0 60 50"><path d="M50 4C50 26 34 40 8 44"/><path d="M17 35 7 44l12 5"/></svg></p>
+            <span class="cc-text">
+              <span class="cc-title">Fish &amp; Chips</span>
+              <span class="cc-desc">Crispy, golden and freshly prepared with the finest fish.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+          <a class="cc cc--pizza" href="menu.html#cat-pizza">
+            <figure class="cc-photo">
+              <img src="images/menu-pizza.webp" width="477" height="269" loading="lazy" alt="Margherita pizza with cherry tomatoes and fresh basil">
+              
+            </figure>
+            <svg class="cc-doodle" aria-hidden="true"><use href="#i-slice"/></svg>
+            <span class="cc-text">
+              <span class="cc-title">Pizza</span>
+              <span class="cc-desc">Authentic Italian pizzas with homemade dough and fresh toppings.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+          <a class="cc cc--pasta" href="menu.html#cat-pasta">
+            <figure class="cc-photo">
+              <img src="images/menu-pasta.webp" width="419" height="265" loading="lazy" alt="Pasta with roasted cherry tomatoes, parmesan and basil">
+              <svg class="cc-outline" viewBox="0 0 419 265" preserveAspectRatio="none" aria-hidden="true"><path d="M14.4,27.7 L342.7,-7.3 Q362.6,-9.4 367.5,10.0 L428.6,249.0 Q433.6,268.3 413.6,267.7 L54.8,255.4 Q34.8,254.7 31.3,235.0 L-2.0,49.5 Q-5.5,29.8 14.4,27.7 Z"/></svg>
+            </figure>
+            <p class="cc-note cc-note--pasta" aria-hidden="true"><span>Authentic</span><span>Italian</span><span>Flavours</span><svg viewBox="0 0 40 60"><path d="M30 4C36 26 30 44 12 54"/><path d="M13 42 11 55l12-3"/></svg></p>
+            <svg class="cc-doodle" aria-hidden="true"><use href="#i-cheese"/></svg>
+            <span class="cc-text">
+              <span class="cc-title">Pasta</span>
+              <span class="cc-desc">Traditional recipes, rich flavours and freshly prepared Italian pasta dishes.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+          <a class="cc cc--burger" href="menu.html#cat-burgers">
+            <figure class="cc-photo">
+              <img src="images/menu-burger.webp" width="318" height="269" loading="lazy" alt="Cheeseburger with lettuce, tomato and onion">
+              
+            </figure>
+            <svg class="cc-doodle" aria-hidden="true"><use href="#i-flame"/></svg>
+            <span class="cc-text">
+              <span class="cc-title">Burgers</span>
+              <span class="cc-desc">Succulent burgers made with quality ingredients.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+          <a class="cc cc--meal" href="menu.html#cat-deals">
+            <figure class="cc-photo">
+              <img src="images/menu-meal.webp" width="297" height="238" loading="lazy" alt="Fish supper with chips, peas and a can of juice">
+              
+            </figure>
+            <svg class="cc-doodle" aria-hidden="true"><use href="#i-cup"/></svg>
+            <span class="cc-text">
+              <span class="cc-title">Meal Deals</span>
+              <span class="cc-desc">Great value combinations for everyone.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+          <a class="cc cc--sides" href="menu.html#cat-sides">
+            <figure class="cc-photo">
+              <img src="images/menu-sides.webp" width="310" height="268" loading="lazy" alt="Onion rings, garlic bread, chips and ketchup">
+              
+            </figure>
+            <svg class="cc-doodle" aria-hidden="true"><use href="#i-fries"/></svg>
+            <span class="cc-text">
+              <span class="cc-title">Sides &amp; Extras</span>
+              <span class="cc-desc">Tasty add-ons to complete your meal.</span>
+              <span class="cc-cta"><span class="cc-explore">Explore<svg class="icon"><use href="#i-arrow-right"/></svg></span><span class="cc-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Our kitchen ============ -->
+    <!-- Copy and four promises on the left; a collage of three framed photos on the right
+         with a round stamp, gold sprigs and two handwritten notes. -->
+    <section class="section kitchen" id="kitchen" aria-labelledby="kitchen-title">
+      <div class="container kitchen-grid">
+        <div class="kitchen-copy reveal">
+          <svg class="kitchen-sprig" aria-hidden="true"><use href="#i-sprig"/></svg>
+          <p class="kitchen-kicker">Our Kitchen</p>
+          <h2 id="kitchen-title">Passion Behind <em>Every Plate</em></h2>
+          <p class="kitchen-lede">Our kitchen is where fresh ingredients, traditional recipes and modern flavours come together. From hand-prepared dough to chef-crafted dishes, everything is made with care to give you an unforgettable meal.</p>
+          <ul class="kitchen-features">
+            <li><span class="kf-icon"><svg class="icon"><use href="#i-leaf"/></svg></span><b>Fresh Ingredients</b><span>Always fresh, full of flavour</span></li>
+            <li><span class="kf-icon"><svg class="icon"><use href="#i-chef"/></svg></span><b>Expert Chef</b><span>Passionate &amp; experienced</span></li>
+            <li><span class="kf-icon"><svg class="icon"><use href="#i-heart"/></svg></span><b>Homemade Goodness</b><span>From dough to sauces</span></li>
+            <li><span class="kf-icon"><svg class="icon"><use href="#i-utensils"/></svg></span><b>Authentic Flavours</b><span>Italian &amp; British classics</span></li>
+          </ul>
+          <a class="btn kitchen-btn" href="#menu">Discover Our Menu<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+        </div>
+
+        <div class="kitchen-collage reveal">
+          <figure class="kc-photo kc-main">
+            <img src="images/kitchen-chef-800.webp" srcset="images/kitchen-chef-440.webp 440w, images/kitchen-chef-800.webp 800w"
+                 sizes="(max-width: 1100px) min(52vw, 292px), 316px" width="800" height="1142" loading="lazy"
+                 alt="Our chef dusting fresh pizza dough with flour">
+          </figure>
+          <figure class="kc-photo kc-top">
+            <img src="images/kitchen-pasta-dish-600.webp" srcset="images/kitchen-pasta-dish-320.webp 320w, images/kitchen-pasta-dish-600.webp 600w"
+                 sizes="(max-width: 1100px) min(31vw, 176px), 188px" width="600" height="698" loading="lazy"
+                 alt="Pasta with roasted cherry tomatoes, parmesan and basil">
+          </figure>
+          <figure class="kc-photo kc-bottom">
+            <img src="images/kitchen-basil-600.webp" srcset="images/kitchen-basil-320.webp 320w, images/kitchen-basil-600.webp 600w"
+                 sizes="(max-width: 1100px) min(30vw, 170px), 181px" width="600" height="531" loading="lazy"
+                 alt="Fresh basil being chopped beside cherry tomatoes">
+          </figure>
+          <svg class="kc-sprig kc-sprig--left" aria-hidden="true"><use href="#i-sprig"/></svg>
+          <svg class="kc-sprig kc-sprig--mid" aria-hidden="true"><use href="#i-sprig"/></svg>
+          <svg class="kc-stamp" viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <path id="kc-arc-top" d="M30 100A70 70 0 0 1 170 100"/>
+              <path id="kc-arc-bottom" d="M18 100A82 82 0 0 0 182 100"/>
+            </defs>
+            <circle cx="100" cy="100" r="96" class="kc-stamp-disc"/>
+            <text><textPath href="#kc-arc-top" startOffset="50%" text-anchor="middle">FOOD BRINGS</textPath></text>
+            <text><textPath href="#kc-arc-bottom" startOffset="50%" text-anchor="middle">PEOPLE TOGETHER</textPath></text>
+            <circle cx="24" cy="100" r="2.6" class="kc-stamp-dot"/>
+            <circle cx="176" cy="100" r="2.6" class="kc-stamp-dot"/>
+            <use href="#i-sprig" x="82" y="72" width="36" height="56" transform="rotate(38 100 100)" class="kc-stamp-sprig"/>
+          </svg>
+          <p class="kc-note kc-note--top" aria-hidden="true">Handcrafted<br>With Care<svg viewBox="0 0 80 64"><path d="M52 4C58 30 44 50 12 52"/><path d="M22 42 10 52l13 8"/></svg></p>
+          <p class="kc-note kc-note--side" aria-hidden="true">Fresh<br>Flavours<br>Always<svg viewBox="0 0 100 16"><path d="M4 13C32 6 62 3 96 5"/></svg></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Menu showcase ============ -->
+    <!-- "From the Fryer to the Fork": a taste of the menu as the design's six cards. Built
+         from fry-and-fork-next/src/data/menu-showcase.json and the menu data; prices are
+         refreshed from js/menu.js on load. The full menu is on menu.html. -->
+    <section class="section showcase" id="menu" aria-labelledby="showcase-title">
+      <div class="container">
+        <div class="sc-grid" data-sc-grid data-filter="all">
+          <div class="sc-intro reveal">
+            <p class="sc-kicker"><svg class="icon"><use href="#i-spark"/></svg>Our Menu</p>
+            <h2 id="showcase-title">From the Fryer <em>to the Fork</em></h2>
+            <p class="sc-lede">Golden fish suppers, fresh-dough pizza and proper pasta, all cooked to order. Here are a few favourites; the full menu has all <span data-dish-count>189</span> dishes.</p>
+            <a class="sc-full" href="menu.html">View Full Menu<span class="sc-full-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></a>
+            <svg class="sc-deco sc-deco--intro" viewBox="0 0 140 170" aria-hidden="true"><path class="sc-deco-dots" d="M72 4C104 12 126 38 128 72"/><path d="M128 60C130 116 80 156 6 160"/><use href="#i-spark" x="58" y="50" width="34" height="34"/><use href="#i-spark" x="114" y="126" width="18" height="18"/><use href="#i-spark" x="98" y="150" width="10" height="10"/></svg>
+          </div>
+          <div class="sc-top">
+            <div class="sc-pills" role="group" aria-label="Show part of the menu">
+              <button class="sc-pill" type="button" aria-pressed="true" data-sc-filter="all">All</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="fish">Fish &amp; Chips</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="pizza">Pizza &amp; Italian</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="burgers">Burgers &amp; Rolls</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="kebabs">Kebabs &amp; Chicken</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="sides">Sides &amp; Extras</button>
+              <button class="sc-pill" type="button" aria-pressed="false" data-sc-filter="kids">Kids</button>
+            </div>
+            <article class="sc-card sc-card--fish reveal" data-sc-card="fish" aria-labelledby="sc-fish-title">
+              <img class="sc-photo" src="images/showcase-fish.webp" width="474" height="320" loading="lazy" alt="Battered fish with chips, mushy peas and lemon">
+              <div class="sc-body">
+                <h3 id="sc-fish-title">Fish &amp; Chips</h3>
+                <p class="sc-sub">A British Classic</p><p class="sc-desc">Crispy, golden and freshly prepared with the finest fish, served with our famous chips.</p>
+                <ul class="sc-list">
+                  <li><span class="sc-name">Large Fish</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="fish/large-fish#1">£11.50</span></li>
+                  <li><span class="sc-name">Fish Cake</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="fish/fish-cake#1">£6.80</span></li>
+                  <li><span class="sc-name">Scampi<small> (10 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="fish/scampi#1">£7.70</span></li>
+                  <li><span class="sc-name">Jumbo Sausage<small> (2 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="fish/jumbo-sausage#1">£7.00</span></li>
+                  <li><span class="sc-name">Haggis Pudding</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="fish/haggis-pudding#1">£7.20</span></li>
+                </ul>
+                <a class="sc-btn" href="menu.html#cat-fish">View All Fish &amp; Chips<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+              </div>
+            </article>
+          </div>
+          <article class="sc-card sc-card--pizza reveal" data-sc-card="pizza" aria-labelledby="sc-pizza-title">
+            <img class="sc-photo" src="images/showcase-pizza.webp" width="339" height="331" loading="lazy" alt="Stone-baked pizza with cherry tomatoes and fresh basil">
+            <div class="sc-body">
+              <h3 id="sc-pizza-title">Pizza &amp; Italian</h3>
+              <div class="sc-table-head">
+                <div><p class="sc-sub">Handmade &amp; Full of Flavour</p><p class="sc-desc">Authentic Italian pizzas with homemade dough, fresh ingredients and classic flavours.</p></div>
+                <div class="sc-sizes" aria-hidden="true"><span>10&quot;</span><span>12&quot;</span><span>16&quot;</span></div>
+              </div>
+              <table class="sc-table">
+                <tbody>
+                  <tr><th scope="row"><span class="sc-name">Margherita</span><span class="sc-toppings">Homemade tomato sauce &amp; mozzarella cheese</span></th><td><span class="visually-hidden">10 inch </span><span data-price-of="pizza/margherita#0">£6.49</span></td><td><span class="visually-hidden">12 inch </span><span data-price-of="pizza/margherita#1">£8.30</span></td><td><span class="visually-hidden">16 inch </span><span data-price-of="pizza/margherita#2">£11.60</span></td></tr>
+                  <tr><th scope="row"><span class="sc-name">Hawaiian</span><span class="sc-toppings">Ham &amp; pineapple</span></th><td><span class="visually-hidden">10 inch </span><span data-price-of="pizza/hawaiian#0">£8.49</span></td><td><span class="visually-hidden">12 inch </span><span data-price-of="pizza/hawaiian#1">£10.99</span></td><td><span class="visually-hidden">16 inch </span><span data-price-of="pizza/hawaiian#2">£15.99</span></td></tr>
+                  <tr><th scope="row"><span class="sc-name">Pacanti (Pepperoni)</span><span class="sc-toppings">Spicy sausage</span></th><td><span class="visually-hidden">10 inch </span><span data-price-of="pizza/pacanti-pepperoni#0">£8.49</span></td><td><span class="visually-hidden">12 inch </span><span data-price-of="pizza/pacanti-pepperoni#1">£10.50</span></td><td><span class="visually-hidden">16 inch </span><span data-price-of="pizza/pacanti-pepperoni#2">£16.50</span></td></tr>
+                  <tr><th scope="row"><span class="sc-name">Meat Feast</span><span class="sc-toppings">Chicken, spicy mince, ham &amp; spicy sauce</span></th><td><span class="visually-hidden">10 inch </span><span data-price-of="pizza/meat-feast#0">£9.50</span></td><td><span class="visually-hidden">12 inch </span><span data-price-of="pizza/meat-feast#1">£12.00</span></td><td><span class="visually-hidden">16 inch </span><span data-price-of="pizza/meat-feast#2">£17.50</span></td></tr>
+                  <tr><th scope="row"><span class="sc-name">Vegetarian</span><span class="sc-toppings">Artichokes, peppers, onions, mushrooms &amp; jalapeños</span></th><td><span class="visually-hidden">10 inch </span><span data-price-of="pizza/vegetarian#0">£9.00</span></td><td><span class="visually-hidden">12 inch </span><span data-price-of="pizza/vegetarian#1">£11.50</span></td><td><span class="visually-hidden">16 inch </span><span data-price-of="pizza/vegetarian#2">£16.50</span></td></tr>
+                </tbody>
+              </table>
+              <a class="sc-btn" href="menu.html#cat-pizza">View All Pizzas<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </article>
+          <article class="sc-card sc-card--burgers reveal" data-sc-card="burgers" aria-labelledby="sc-burgers-title">
+            <svg class="sc-deco sc-deco--burgers" viewBox="0 0 110 110" aria-hidden="true"><path class="sc-deco-dots" d="M4 28H32"/><path d="M40 34C70 36 98 56 108 106"/><use href="#i-spark" x="54" y="4" width="26" height="26"/></svg>
+            <div class="sc-body">
+              <h3 id="sc-burgers-title">Burgers &amp; Rolls</h3>
+              <p class="sc-sub">Succulent &amp; Satisfying</p>
+              <ul class="sc-list">
+                <li><span class="sc-name">Pounder Burger<small> (¼lb)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="burgers/pounder-burger#0">£6.30</span></li>
+                <li><span class="sc-name">Pounder Cheese Burger<small> (¼lb)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="burgers/pounder-cheese-burger#0">£7.45</span></li>
+                <li><span class="sc-name">Pounder Cheese &amp; Bacon Burger<small> (¼lb)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="burgers/pounder-cheese-and-bacon-burger#0">£8.40</span></li>
+                <li><span class="sc-name">Chicken Burger</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="burgers/chicken-burger#0">£7.00</span></li>
+                <li><span class="sc-name">Zinger Burger</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="burgers/zinger-burger#0">£7.00</span></li>
+                <li><span class="sc-name">Hamburger Roll</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="rolls/hamburger-roll#0">£2.70</span></li>
+                <li><span class="sc-name">Cheese N Burger Roll</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="rolls/cheese-n-burger-roll#0">£5.40</span></li>
+                <li><span class="sc-name">Sausage Roll</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="rolls/sausage-roll#0">£2.70</span></li>
+              </ul>
+              <a class="sc-btn" href="menu.html#cat-burgers">View All Burgers &amp; Rolls<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </article>
+          <article class="sc-card sc-card--kebabs reveal" data-sc-card="kebabs" aria-labelledby="sc-kebabs-title">
+            <svg class="sc-deco sc-deco--kebabs" viewBox="0 0 100 80" aria-hidden="true"><path class="sc-deco-dots" d="M4 12H40M4 21H40M4 30H40M4 39H40"/><path d="M46 2C76 8 96 36 98 76"/></svg>
+            <div class="sc-body">
+              <h3 id="sc-kebabs-title">Kebabs &amp; Chicken</h3>
+              <p class="sc-sub">Freshly Prepared, Great Taste</p>
+              <ul class="sc-list">
+                <li><span class="sc-name">Doner Kebab</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/doner-kebab#0">£9.00</span></li>
+                <li><span class="sc-name">Chicken Kebab</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/chicken-kebab#0">£9.99</span></li>
+                <li><span class="sc-name">Mixed Kebab</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/mixed-kebab#0">£11.50</span></li>
+                <li><span class="sc-name">Doner Wrap</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/doner-wrap#0">£9.50</span></li>
+                <li><span class="sc-name">Chicken Wrap</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/chicken-wrap#0">£10.99</span></li>
+                <li><span class="sc-name">Mixed Wrap</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kebabs/mixed-wrap#0">£12.20</span></li>
+                <li><span class="sc-name">¼ Chicken</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="chicken/quarter-chicken#0">£6.00</span></li>
+                <li><span class="sc-name">Spicy Chicken Wings<small> (5 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="chicken/spicy-chicken-wings#0">£5.00</span></li>
+              </ul>
+              <a class="sc-btn" href="menu.html#cat-kebabs">View All Kebabs &amp; Chicken<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </article>
+          <article class="sc-card sc-card--sides reveal" data-sc-card="sides" aria-labelledby="sc-sides-title">
+            <svg class="sc-deco sc-deco--sides" viewBox="0 0 100 60" aria-hidden="true"><use href="#i-spark" x="18" y="6" width="22" height="22"/><use href="#i-spark" x="2" y="36" width="9" height="9"/><path class="sc-deco-dots" d="M62 6H98"/><path d="M14 58C40 58 70 44 98 16"/></svg>
+            <div class="sc-body">
+              <h3 id="sc-sides-title">Sides &amp; Extras</h3>
+              <p class="sc-sub">The Perfect Additions</p>
+              <ul class="sc-list">
+                <li><span class="sc-name">Medium Chips</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="chips/medium-chips#0">£3.20</span></li>
+                <li><span class="sc-name">Medium Chips &amp; Cheese</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="chips/medium-chips-and-cheese#0">£5.20</span></li>
+                <li><span class="sc-name">Chips &amp; Curry Sauce</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="chips/chips-and-curry-sauce#0">£5.00</span></li>
+                <li><span class="sc-name">Onion Rings</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="sides/onion-rings#0">£4.49</span></li>
+                <li><span class="sc-name">Battered Mushrooms</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="sides/battered-mushrooms#0">£4.49</span></li>
+                <li><span class="sc-name">Mozzarella Sticks</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="sides/mozzarella-sticks#0">£4.00</span></li>
+                <li><span class="sc-name">Focaccia</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="italian-sides/focaccia#0">£4.00</span></li>
+                <li><span class="sc-name">Mushy Peas</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="sides/mushy-peas#0">£1.10</span></li>
+              </ul>
+              <a class="sc-btn" href="menu.html#cat-sides">View All Sides &amp; Extras<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </article>
+          <article class="sc-card sc-card--kids reveal" data-sc-card="kids" aria-labelledby="sc-kids-title">
+            <img class="sc-photo" src="images/showcase-kids.webp" width="188" height="260" loading="lazy" alt="Chicken nuggets and chips with ketchup">
+            <div class="sc-body">
+              <h3 id="sc-kids-title">Kids Meals</h3>
+              <p class="sc-sub">Little Favourites</p>
+              <ul class="sc-list">
+                <li><span class="sc-name">Jumbo Sausage</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/jumbo-sausage#0">£5.00</span></li>
+                <li><span class="sc-name">Hamburger</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/hamburger#0">£5.00</span></li>
+                <li><span class="sc-name">Fishcake</span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/fishcake#0">£5.00</span></li>
+                <li><span class="sc-name">Chicken Nuggets<small> (4 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/chicken-nuggets#0">£5.00</span></li>
+                <li><span class="sc-name">Scampi<small> (5 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/scampi#0">£5.00</span></li>
+                <li><span class="sc-name">Chicken Popcorn<small> (10 pcs)</small></span><span class="sc-dots" aria-hidden="true"></span><span class="sc-price" data-price-of="kids/chicken-popcorn#0">£5.00</span></li>
+              </ul>
+              <a class="sc-btn" href="menu.html#cat-kids">View All Kids Meals<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <!-- "Get in touch": ways to reach the shop on the left, and a message form over the
+         restaurant photo on the right, which is cut with the design's rounded chevron. -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-photo" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <div class="contact-intro reveal">
+          <p class="contact-kicker">Get in Touch</p>
+          <h2 id="contact-title">We’d Love to <br>Hear from <em>You</em></h2>
+          <p class="contact-lede">Whether you have a question about the menu, a big order to plan, or just fancy saying hello, we’re here to help.</p>
+          <ul class="contact-cards">
+            <li class="contact-card">
+              <span class="contact-card-icon"><svg class="icon"><use href="#i-phone-solid"/></svg></span>
+              <h3>Call Us</h3>
+              <a class="contact-card-main" href="tel:+441592264123">01592 264123</a>
+              <p>Call to order for collection</p>
+            </li>
+            <li class="contact-card">
+              <span class="contact-card-icon"><svg class="icon"><use href="#i-clock-solid"/></svg></span>
+              <h3>Opening Hours</h3>
+              <p class="contact-card-main">Open 7 days</p>
+              <p>3pm till 10:30pm, 11:30pm Fri &amp; Sat</p>
+            </li>
+            <li class="contact-card">
+              <span class="contact-card-icon"><svg class="icon"><use href="#i-pin-solid"/></svg></span>
+              <h3>Visit Us</h3>
+              <p class="contact-card-main">135 Link Street,<br>Kirkcaldy KY1 1QR</p>
+              <p><a href="https://www.google.com/maps/search/?api=1&amp;query=56.102605%2C-3.161252" target="_blank" rel="noopener">Find us on the map</a></p>
+            </li>
+          </ul>
+          <a class="contact-map-btn" href="https://www.google.com/maps/search/?api=1&amp;query=56.102605%2C-3.161252" target="_blank" rel="noopener">View on Map<span class="contact-map-go"><svg class="icon"><use href="#i-arrow-right"/></svg></span></a>
+        </div>
+
+        <div class="contact-form-area reveal">
+          <div class="contact-form-card">
+            <p class="contact-form-kicker">Send Us a Message</p>
+            <h3 id="contact-form-title">Let’s Talk</h3>
+            <p class="contact-form-lede">Have a question, special request or feedback? Fill out the form and we’ll get back to you shortly.</p>
+            <!-- data-endpoint: where messages are posted as JSON (a form service such as
+                 Formspree). Until it's set, sending asks the visitor to call instead. -->
+            <form class="contact-form" data-contact-form data-endpoint="" aria-labelledby="contact-form-title">
+              <div class="contact-fields">
+                <div class="contact-row">
+                  <label class="contact-field"><span class="visually-hidden">Your name</span><input name="name" type="text" autocomplete="name" placeholder="Your Name *" required></label>
+                  <label class="contact-field"><span class="visually-hidden">Your email</span><input name="email" type="email" autocomplete="email" placeholder="Your Email *" required></label>
+                </div>
+                <label class="contact-field"><span class="visually-hidden">Phone number (optional)</span><input name="phone" type="tel" autocomplete="tel" placeholder="Phone Number (Optional)"></label>
+                <label class="contact-field contact-select">
+                  <span class="visually-hidden">Subject</span>
+                  <select name="subject" required>
+                    <option value="" disabled selected hidden>Subject *</option>
+                    <option>A question about the menu</option>
+                    <option>Allergies &amp; dietary needs</option>
+                    <option>A large or party order</option>
+                    <option>Feedback</option>
+                    <option>Something else</option>
+                  </select>
+                  <svg class="icon"><use href="#i-chevron-down"/></svg>
+                </label>
+                <label class="contact-field"><span class="visually-hidden">Your message</span><textarea name="message" rows="4" placeholder="Your Message *" required></textarea></label>
+                <label class="contact-trap visually-hidden" aria-hidden="true">Leave this empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+                <button class="contact-send" type="submit"><span data-send-label>Send Message</span><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+              </div>
+              <div class="contact-result" data-contact-result role="status" hidden>
+                <span class="contact-result-icon"><svg class="icon"><use data-result-icon href="#i-check"/></svg></span>
+                <p class="contact-result-title" data-result-title tabindex="-1"></p>
+                <p class="contact-result-text" data-result-text></p>
+                <div class="contact-result-actions">
+                  <a class="contact-send" href="tel:+441592264123" data-result-call>Call 01592 264123</a>
+                  <button class="contact-result-back" type="button" data-result-back></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <!-- Three bands, after the design: the "Good Food. Good Mood." call to order, the main
+       footer (brand, quick links, menu, contact) and a slim base bar. -->
+  <footer class="site-footer">
+    <!-- one photo behind the call to order and the main footer -->
+    <div class="footer-scene">
+      <section class="footer-cta" aria-labelledby="footer-cta-title">
+        <div class="container footer-cta-inner">
+          <p class="footer-kicker">Order Now</p>
+          <h2 id="footer-cta-title">Good Food. <em>Good Mood.</em></h2>
+          <p class="footer-cta-lede">Make your next meal a special one. Call ahead and collect it fresh from the fryer.</p>
+          <a class="footer-cta-btn" href="tel:+441592264123">Call to Order<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+          <p class="footer-note" aria-hidden="true"><span>Fresh Food</span><span>Great Vibes</span><svg><use href="#i-olive"/></svg></p>
+        </div>
+      </section>
+
+      <div class="footer-main">
+        <div class="container footer-grid">
+          <div class="footer-brand">
+            <a class="footer-logo" href="#top" aria-label="Fry &amp; Fork, back to the top">
+              <svg class="footer-logo-sprig" aria-hidden="true"><use href="#i-olive"/></svg>
+              <span class="footer-logo-name">Fry <span class="amp">&amp;</span> Fork</span>
+              <span class="footer-logo-tag">Fish &amp; Chips · Pizza · Pasta</span>
+            </a>
+            <div class="footer-about">
+              <p>A proper Kirkcaldy chippy with an Italian kitchen: golden fish suppers, fresh-dough pizza and pasta, all cooked to order.</p>
+              <ul class="footer-actions">
+                <li><button class="footer-action" type="button" data-open-order aria-label="Your order"><svg class="icon"><use href="#i-bag"/></svg></button></li>
+                <li><a class="footer-action" href="menu.html#menu" aria-label="Full menu"><svg class="icon"><use href="#i-utensils"/></svg></a></li>
+                <li><a class="footer-action" href="https://www.google.com/maps/dir/?api=1&amp;destination=56.102605%2C-3.161252" target="_blank" rel="noopener" aria-label="Directions (opens Google Maps)"><svg class="icon"><use href="#i-nav"/></svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <nav class="footer-col" aria-labelledby="footer-links-title">
+            <h2 id="footer-links-title">Quick Links</h2>
+            <ul>
+              <li><a href="#top">Home</a></li>
+              <li><a href="menu.html#menu">Full Menu</a></li>
+              <li><a href="#kitchen">Our Kitchen</a></li>
+              <li><a href="menu.html#allergens">Allergen Info</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="tel:+441592264123">Call to Order</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-col" aria-labelledby="footer-menu-title">
+            <h2 id="footer-menu-title">Our Menu</h2>
+            <ul>
+              <li><a href="menu.html#cat-fish">Fish Bar</a></li>
+              <li><a href="menu.html#cat-pizza">Pizza</a></li>
+              <li><a href="menu.html#cat-pasta">Pasta</a></li>
+              <li><a href="menu.html#cat-burgers">Burgers</a></li>
+              <li><a href="menu.html#cat-kebabs">Kebabs &amp; Wraps</a></li>
+              <li><a href="menu.html#cat-deals">Meal Deals</a></li>
+              <li><a href="menu.html#cat-desserts">Desserts</a></li>
+            </ul>
+          </nav>
+          <div class="footer-col footer-touch">
+            <h2>Get in Touch</h2>
+            <ul class="footer-contact">
+              <li>
+                <span class="footer-contact-icon"><svg class="icon"><use href="#i-pin-solid"/></svg></span>
+                <a class="footer-contact-main" href="https://www.google.com/maps/dir/?api=1&amp;destination=56.102605%2C-3.161252" target="_blank" rel="noopener">135 Link Street, Kirkcaldy KY1 1QR</a>
+              </li>
+              <li>
+                <span class="footer-contact-icon"><svg class="icon"><use href="#i-phone-solid"/></svg></span>
+                <span><a class="footer-contact-main" href="tel:+441592264123">01592 264123</a><small>Call to order for collection</small></span>
+              </li>
+              <li>
+                <span class="footer-contact-icon"><svg class="icon"><use href="#i-clock-solid"/></svg></span>
+                <span><span class="footer-contact-main">Open 7 days from 3pm</span><small>Till 10:30pm, 11:30pm Fri &amp; Sat</small></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="container footer-bar-inner">
+        <p class="footer-copy">© <span data-year>2026</span> Fry &amp; Fork, Kirkcaldy. All rights reserved.</p>
+        <span class="footer-ornament" aria-hidden="true"><svg><use href="#i-olive"/></svg></span>
+        <div class="footer-bar-end">
+          <ul class="footer-legal">
+            <li><a href="menu.html#allergens">Allergen Info</a></li>
+            <li>Prices may vary</li>
+            <li>Photos for illustration</li>
+          </ul>
+          <a class="footer-top" href="#top" aria-label="Back to the top"><svg class="icon"><use href="#i-arrow-up"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ Mobile action bar ============ -->
+  <div class="mobile-bar">
+    <a class="btn btn-primary" href="tel:+441592264123"><svg class="icon"><use href="#i-phone"/></svg>Call</a>
+    <button class="btn btn-dark" type="button" data-open-order>
+      <svg class="icon"><use href="#i-bag"/></svg><span class="mobile-bar-label">Your order</span><span class="mobile-bar-total" data-order-summary hidden></span>
+    </button>
+  </div>
+
+  <!-- ============ Order drawer ============ -->
+  <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title">
+    <div class="order-inner" tabindex="-1" autofocus>
+      <header class="order-head">
+        <h2 id="order-title">Your Order <span class="order-head-count" data-order-count-text hidden></span></h2>
+        <button class="order-close" type="button" data-close-order aria-label="Close your order"><svg class="icon"><use href="#i-x"/></svg></button>
+      </header>
+      <div class="order-body">
+        <div class="order-empty" data-order-empty>
+          <span class="order-empty-icon"><svg class="icon"><use href="#i-bag"/></svg></span>
+          <p class="order-empty-title">Nothing here yet</p>
+          <p>Add dishes from the menu and they'll appear here. Your list stays on this device.</p>
+          <a class="btn btn-ghost" href="menu.html#menu" data-close-order>Browse the menu</a>
+        </div>
+        <ul class="order-lines" data-order-lines></ul>
+      </div>
+      <footer class="order-foot" data-order-foot hidden>
+        <div class="order-note-field">
+          <label for="order-note">Add a note (optional)</label>
+          <textarea id="order-note" rows="2" placeholder="e.g. no onions, extra cheese…" data-order-note></textarea>
+        </div>
+        <div class="order-total"><span>Subtotal</span><strong data-order-total>£0.00</strong></div>
+        <a class="order-cta" href="tel:+441592264123">Call to Order<svg class="icon"><use href="#i-arrow-right"/></svg></a>
+        <button class="order-continue" type="button" data-close-order>Continue Ordering</button>
+        <div class="order-actions">
+          <button class="btn btn-quiet" type="button" data-copy-order><svg class="icon"><use href="#i-copy"/></svg>Copy list</button>
+          <button class="btn btn-quiet" type="button" data-clear-order><svg class="icon"><use href="#i-trash"/></svg>Clear</button>
+        </div>
+        <p class="order-note">We don't take orders online: call us and read out your list and note. Please tell us about any allergies.</p>
+      </footer>
+    </div>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" data-toast>
+    <span class="toast-icon"><svg class="icon"><use href="#i-check"/></svg></span>
+    <span class="toast-text" data-toast-text></span>
+    <button class="toast-action" type="button" data-open-order>View</button>
+  </div>
+
+  <script src="js/menu.js" defer></script>
+  <script src="js/menu-page.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

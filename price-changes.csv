@@ -1,0 +1,295 @@
+﻿Section,Item,Printed menu price (£),Website price (£),Reduction (£)
+Meal Deals,Meal Deal 1,20.99,19.99,1.00
+Meal Deals,"Meal Deal 2 — 2× 10"" pizzas & 2 can drinks",18.49,17.49,1.00
+Meal Deals,"Meal Deal 2 — 2× 12"" pizzas & 2 can drinks",22.49,21.49,1.00
+Meal Deals,"Meal Deal 2 — 2× 16"" pizzas & a bottle drink",30.49,29.49,1.00
+Meal Deals,Combo Box 1,18.49,17.49,1.00
+Meal Deals,Combo Box 2,21.49,20.49,1.00
+Meal Deals,Chippy Box,22.49,21.49,1.00
+Meal Deals,Crunchy Box,16.49,15.49,1.00
+Meal Deals,Chicken Box,23.49,22.49,1.00
+Meal Deals,Family Box,26.49,25.49,1.00
+Fish Bar,Large Fish (Single),9.99,9.49,0.50
+Fish Bar,Large Fish (Supper),12.50,11.50,1.00
+Fish Bar,Fish Cake (Single),4.99,4.49,0.50
+Fish Bar,Fish Cake (Supper),7.30,6.80,0.50
+Fish Bar,Scampi (Single),6.20,5.70,0.50
+Fish Bar,Scampi (Supper),8.20,7.70,0.50
+Fish Bar,Jumbo Smoked Sausage (Battered) (Single),6.00,5.50,0.50
+Fish Bar,Jumbo Smoked Sausage (Battered) (Supper),8.70,8.20,0.50
+Fish Bar,Jumbo Smoked Sausage (Single),4.80,4.30,0.50
+Fish Bar,Jumbo Smoked Sausage (Supper),7.90,7.40,0.50
+Fish Bar,Jumbo Sausage (Single),4.80,4.30,0.50
+Fish Bar,Jumbo Sausage (Supper),7.50,7.00,0.50
+Fish Bar,Hamburger (Single),4.80,4.30,0.50
+Fish Bar,Hamburger (Supper),7.50,7.00,0.50
+Fish Bar,White Pudding (Single),4.80,4.30,0.50
+Fish Bar,White Pudding (Supper),7.50,7.00,0.50
+Fish Bar,Black Pudding (Single),4.80,4.30,0.50
+Fish Bar,Black Pudding (Supper),7.50,7.00,0.50
+Fish Bar,Haggis Pudding (Single),4.80,4.30,0.50
+Fish Bar,Haggis Pudding (Supper),7.70,7.20,0.50
+Fish Bar,Jumbo Haggis (Single),4.80,4.30,0.50
+Fish Bar,Jumbo Haggis (Supper),7.80,7.30,0.50
+Fish Bar,King Rib (Single),4.80,4.30,0.50
+Fish Bar,King Rib (Supper),7.80,7.30,0.50
+Fish Bar,Rump Steak (Single),4.80,4.30,0.50
+Fish Bar,Rump Steak (Supper),7.70,7.20,0.50
+Fish Bar,Cheese N Burger (Single),5.30,4.80,0.50
+Fish Bar,Cheese N Burger (Supper),8.70,8.20,0.50
+Fish Bar,Mince Pie (Single),4.80,4.30,0.50
+Fish Bar,Mince Pie (Supper),7.90,7.40,0.50
+Fish Bar,Homemade Steak Pie (Single),4.80,4.30,0.50
+Fish Bar,Homemade Steak Pie (Supper),7.90,7.40,0.50
+Fish Bar,Fried Pizza (Single),5.10,4.60,0.50
+Fish Bar,Fried Pizza (Supper),7.80,7.30,0.50
+Fish Bar,Half Fried Pizza (Single),3.99,3.49,0.50
+Fish Bar,Half Fried Pizza (Supper),6.80,6.30,0.50
+Fish Bar,Fried Pizza Crunch (Single),5.99,5.49,0.50
+Fish Bar,Fried Pizza Crunch (Supper),8.70,8.20,0.50
+Fish Bar,Half Fried Pizza Crunch (Single),4.40,3.90,0.50
+Fish Bar,Half Fried Pizza Crunch (Supper),7.60,7.10,0.50
+Chips,Medium Chips,3.70,3.20,0.50
+Chips,Large Chips,5.99,5.49,0.50
+Chips,Chips & Curry Sauce,5.50,5.00,0.50
+Chips,Chip Roll,3.60,3.10,0.50
+Chips,Medium Chips & Cheese,5.70,5.20,0.50
+Chips,Large Chips & Cheese,7.50,7.00,0.50
+Chips,Chips & Doner,7.70,7.20,0.50
+Chips,Chips & Pesto,6.00,5.50,0.50
+Chips,Chips & Bolognese,7.30,6.80,0.50
+Chips,"Chips, Cheese & Doner Meat",8.20,7.70,0.50
+Chips,"Chips, Cheese, Doner & Curry Sauce",9.70,9.20,0.50
+Chips,"Chips, Cheese & Gravy",7.20,6.70,0.50
+Chips,"Chips, Cheese & Curry Sauce",7.00,6.50,0.50
+Pizzas,"Margherita (10"")",6.99,6.49,0.50
+Pizzas,"Margherita (12"")",8.80,8.30,0.50
+Pizzas,"Margherita (16"")",12.60,11.60,1.00
+Pizzas,"Create Your Own Pizza (10"")",6.99,6.49,0.50
+Pizzas,"Create Your Own Pizza (12"")",8.80,8.30,0.50
+Pizzas,"Create Your Own Pizza (16"")",12.60,11.60,1.00
+Pizzas,"Tre Formaggi (10"")",7.99,7.49,0.50
+Pizzas,"Tre Formaggi (12"")",8.50,8.00,0.50
+Pizzas,"Tre Formaggi (16"")",13.99,12.99,1.00
+Pizzas,"Hawaiian (10"")",8.99,8.49,0.50
+Pizzas,"Hawaiian (12"")",11.99,10.99,1.00
+Pizzas,"Hawaiian (16"")",16.99,15.99,1.00
+Pizzas,"Funghi (10"")",8.99,8.49,0.50
+Pizzas,"Funghi (12"")",10.99,9.99,1.00
+Pizzas,"Funghi (16"")",15.50,14.50,1.00
+Pizzas,"Stagoni (10"")",9.99,9.49,0.50
+Pizzas,"Stagoni (12"")",12.60,11.60,1.00
+Pizzas,"Stagoni (16"")",17.99,16.99,1.00
+Pizzas,"Campagnola (10"")",8.99,8.49,0.50
+Pizzas,"Campagnola (12"")",11.50,10.50,1.00
+Pizzas,"Campagnola (16"")",17.50,16.50,1.00
+Pizzas,"Pacanti (Pepperoni) (10"")",8.99,8.49,0.50
+Pizzas,"Pacanti (Pepperoni) (12"")",11.50,10.50,1.00
+Pizzas,"Pacanti (Pepperoni) (16"")",17.50,16.50,1.00
+Pizzas,"Napolitana (10"")",8.99,8.49,0.50
+Pizzas,"Napolitana (12"")",11.50,10.50,1.00
+Pizzas,"Napolitana (16"")",16.50,15.50,1.00
+Pizzas,"Favorita (10"")",8.99,8.49,0.50
+Pizzas,"Favorita (12"")",11.20,10.20,1.00
+Pizzas,"Favorita (16"")",15.80,14.80,1.00
+Pizzas,"Salami (10"")",8.99,8.49,0.50
+Pizzas,"Salami (12"")",11.99,10.99,1.00
+Pizzas,"Salami (16"")",15.99,14.99,1.00
+Pizzas,"Valentino (10"")",8.99,8.49,0.50
+Pizzas,"Valentino (12"")",11.20,10.20,1.00
+Pizzas,"Valentino (16"")",16.50,15.50,1.00
+Pizzas,"Grantourco (10"")",8.99,8.49,0.50
+Pizzas,"Grantourco (12"")",11.20,10.20,1.00
+Pizzas,"Grantourco (16"")",17.50,16.50,1.00
+Pizzas,"Pollo Alla Pesto (10"")",8.99,8.49,0.50
+Pizzas,"Pollo Alla Pesto (12"")",10.70,9.70,1.00
+Pizzas,"Pollo Alla Pesto (16"")",15.50,14.50,1.00
+Pizzas,"Mexicana (10"")",9.20,8.70,0.50
+Pizzas,"Mexicana (12"")",11.60,10.60,1.00
+Pizzas,"Mexicana (16"")",17.50,16.50,1.00
+Pizzas,"Sicili (10"")",9.50,9.00,0.50
+Pizzas,"Sicili (12"")",11.99,10.99,1.00
+Pizzas,"Sicili (16"")",16.50,15.50,1.00
+Pizzas,"Diavola (10"")",9.50,9.00,0.50
+Pizzas,"Diavola (12"")",11.99,10.99,1.00
+Pizzas,"Diavola (16"")",16.50,15.50,1.00
+Pizzas,"Mantarana (10"")",9.50,9.00,0.50
+Pizzas,"Mantarana (12"")",11.99,10.99,1.00
+Pizzas,"Mantarana (16"")",16.50,15.50,1.00
+Pizzas,"Cardinal (10"")",9.50,9.00,0.50
+Pizzas,"Cardinal (12"")",11.99,10.99,1.00
+Pizzas,"Cardinal (16"")",16.50,15.50,1.00
+Pizzas,"Vegetarian (10"")",9.50,9.00,0.50
+Pizzas,"Vegetarian (12"")",12.50,11.50,1.00
+Pizzas,"Vegetarian (16"")",17.50,16.50,1.00
+Pizzas,"Bianca (10"")",9.50,9.00,0.50
+Pizzas,"Bianca (12"")",11.50,10.50,1.00
+Pizzas,"Bianca (16"")",17.00,16.00,1.00
+Pizzas,"Norcia (10"")",9.50,9.00,0.50
+Pizzas,"Norcia (12"")",12.20,11.20,1.00
+Pizzas,"Norcia (16"")",16.70,15.70,1.00
+Pizzas,"Veronese (10"")",9.50,9.00,0.50
+Pizzas,"Veronese (12"")",11.99,10.99,1.00
+Pizzas,"Veronese (16"")",15.99,14.99,1.00
+Pizzas,"Volcano (10"")",9.50,9.00,0.50
+Pizzas,"Volcano (12"")",11.99,10.99,1.00
+Pizzas,"Volcano (16"")",15.99,14.99,1.00
+Pizzas,"Sorrento (10"")",9.50,9.00,0.50
+Pizzas,"Sorrento (12"")",10.80,9.80,1.00
+Pizzas,"Sorrento (16"")",16.50,15.50,1.00
+Pizzas,"Caprina (10"")",9.80,9.30,0.50
+Pizzas,"Caprina (12"")",11.99,10.99,1.00
+Pizzas,"Caprina (16"")",16.50,15.50,1.00
+Pizzas,"Barbecue Chicken (10"")",9.80,9.30,0.50
+Pizzas,"Barbecue Chicken (12"")",11.99,10.99,1.00
+Pizzas,"Barbecue Chicken (16"")",16.50,15.50,1.00
+Pizzas,"Marinara (10"")",9.80,9.30,0.50
+Pizzas,"Marinara (12"")",11.99,10.99,1.00
+Pizzas,"Marinara (16"")",16.50,15.50,1.00
+Pizzas,"Capricosa (10"")",9.99,9.49,0.50
+Pizzas,"Capricosa (12"")",12.60,11.60,1.00
+Pizzas,"Capricosa (16"")",17.50,16.50,1.00
+Pizzas,"Prosciutto (10"")",9.99,9.49,0.50
+Pizzas,"Prosciutto (12"")",12.60,11.60,1.00
+Pizzas,"Prosciutto (16"")",18.50,17.50,1.00
+Pizzas,"Doner (10"")",9.99,9.49,0.50
+Pizzas,"Doner (12"")",12.60,11.60,1.00
+Pizzas,"Doner (16"")",19.99,18.99,1.00
+Pizzas,"Chef Special (10"")",9.99,9.49,0.50
+Pizzas,"Chef Special (12"")",11.80,10.80,1.00
+Pizzas,"Chef Special (16"")",16.50,15.50,1.00
+Pizzas,"Meat Feast (10"")",10.50,9.50,1.00
+Pizzas,"Meat Feast (12"")",13.00,12.00,1.00
+Pizzas,"Meat Feast (16"")",18.50,17.50,1.00
+Pizzas,"Nostara (10"")",10.30,9.30,1.00
+Pizzas,"Nostara (12"")",12.50,11.50,1.00
+Pizzas,"Nostara (16"")",17.99,16.99,1.00
+Calzones,Calzone,11.49,10.49,1.00
+Calzones,Calzone Doner,12.99,11.99,1.00
+Calzones,Calzone Vegetable,10.99,9.99,1.00
+Calzones,Chicken Hoagie Calzone,15.49,14.49,1.00
+Calzones,Doner Hoagie Calzone,14.99,13.99,1.00
+Calzones,Mixed Hoagie Calzone,16.99,15.99,1.00
+Pasta,Penne Vegetarian,10.50,9.50,1.00
+Pasta,Penne Napoli,8.99,8.49,0.50
+Pasta,Penne Funghi Crema,10.50,9.50,1.00
+Pasta,Penne Della Casa,10.50,9.50,1.00
+Pasta,Penne Alla Pesto,10.00,9.00,1.00
+Pasta,Penne Ducale,11.99,10.99,1.00
+Pasta,Penne Sicilliana,12.50,11.50,1.00
+Pasta,Penne Alla Formage,9.99,9.49,0.50
+Pasta,Penne Alfredo,12.50,11.50,1.00
+Pasta,Penne Alla Carbozola,12.80,11.80,1.00
+Pasta,Penne Alla Barese,12.80,11.80,1.00
+Pasta,Penne Alla Genovese,12.50,11.50,1.00
+Pasta,Spaghetti Carbonara,9.99,9.49,0.50
+Pasta,Spaghetti Arrablata,8.99,8.49,0.50
+Pasta,Spaghetti Amatriciana,9.99,9.49,0.50
+Pasta,Spaghetti Bolognese,11.99,10.99,1.00
+Pasta,Spaghetti Marinara,13.50,12.50,1.00
+Pasta,Tagliatelle Papalina,13.50,12.50,1.00
+Pasta,Tagliatelle Chef Special,12.80,11.80,1.00
+Pasta,Tagliatelle Ciociara,10.99,9.99,1.00
+Pasta,Gnocchi Alforno,11.99,10.99,1.00
+Pasta,Gnocchi Alla Romana,12.50,11.50,1.00
+Pasta,Tortellini Della Casa,12.50,11.50,1.00
+Pasta,Tortellini Alferno,12.50,11.50,1.00
+Pasta,Tortellini Funghi Alla Crema,12.50,11.50,1.00
+Risotto,Risotto Funghi E Crema,9.50,9.00,0.50
+Risotto,Risotto Fattore,11.50,10.50,1.00
+Risotto,Risotto Mariyanara,12.20,11.20,1.00
+Risotto,Risotto Della Casa,11.50,10.50,1.00
+Risotto,Risotto Pollo Funghi Crema,10.99,9.99,1.00
+Risotto,Risotto Sorrentina,12.50,11.50,1.00
+Italian Sides,Focaccia,4.50,4.00,0.50
+Italian Sides,Focaccia Con Mozzarella,6.60,6.10,0.50
+Italian Sides,Focaccia Piccante,5.30,4.80,0.50
+Italian Sides,Focaccia Alla Parma,7.20,6.70,0.50
+Italian Sides,Focaccia Bruschetta,6.60,6.10,0.50
+Italian Sides,Funghi Aglio,4.70,4.20,0.50
+Italian Sides,Funghi Alla Crema,5.30,4.80,0.50
+Burgers,Pounder Burger (¼lb),6.80,6.30,0.50
+Burgers,Pounder Burger (½lb),8.50,8.00,0.50
+Burgers,Pounder Cheese Burger (¼lb),7.95,7.45,0.50
+Burgers,Pounder Cheese Burger (½lb),9.50,9.00,0.50
+Burgers,Pounder Cheese & Bacon Burger (¼lb),8.90,8.40,0.50
+Burgers,Pounder Cheese & Bacon Burger (½lb),9.95,9.45,0.50
+Burgers,Pounder with Doner Meat Burger (¼lb),8.95,8.45,0.50
+Burgers,Pounder with Doner Meat Burger (½lb),10.20,9.20,1.00
+Burgers,Chicken Burger,7.50,7.00,0.50
+Burgers,Zinger Burger,7.50,7.00,0.50
+Kebabs & Wraps,Doner Kebab,9.50,9.00,0.50
+Kebabs & Wraps,Chicken Kebab,10.99,9.99,1.00
+Kebabs & Wraps,Mixed Kebab,12.50,11.50,1.00
+Kebabs & Wraps,Doner Meat,7.20,6.70,0.50
+Kebabs & Wraps,Doner Wrap,10.50,9.50,1.00
+Kebabs & Wraps,Chicken Wrap,11.99,10.99,1.00
+Kebabs & Wraps,Mixed Wrap,13.20,12.20,1.00
+Kebabs & Wraps,Hoagie Wrap,12.50,11.50,1.00
+Kebabs & Wraps,Chips & Cheese Wrap,5.20,4.70,0.50
+Kebabs & Wraps,Chicken Royal Wrap,6.80,6.30,0.50
+Kebabs & Wraps,Spicy Chicken Royal Wrap,7.00,6.50,0.50
+Kebabs & Wraps,Mixed Hoagie Wrap,14.80,13.80,1.00
+Chicken,¼ Chicken (Single),6.50,6.00,0.50
+Chicken,¼ Chicken (Supper),8.99,8.49,0.50
+Chicken,Half Chicken (Single),8.99,8.49,0.50
+Chicken,Half Chicken (Supper),11.99,10.99,1.00
+Chicken,Chicken Nuggets (Single),5.20,4.70,0.50
+Chicken,Chicken Nuggets (Supper),7.00,6.50,0.50
+Chicken,Chicken Steak (Single),5.10,4.60,0.50
+Chicken,Chicken Steak (Supper),8.70,8.20,0.50
+Chicken,Spicy Chicken Wings (Single),5.50,5.00,0.50
+Chicken,Spicy Chicken Wings (Supper),7.50,7.00,0.50
+Chicken,Chicken Popcorn (Single),4.59,4.09,0.50
+Chicken,Chicken Popcorn (Supper),6.10,5.60,0.50
+Pakora,Mixed Pakora,7.80,7.30,0.50
+Pakora,Vegetable Pakora,6.50,6.00,0.50
+Pakora,Chicken Pakora,7.50,7.00,0.50
+Hot Filled Rolls,Hamburger Roll,3.20,2.70,0.50
+Hot Filled Rolls,Hamburger Chip Roll,5.50,5.00,0.50
+Hot Filled Rolls,Sausage Roll,3.20,2.70,0.50
+Hot Filled Rolls,Sausage Chip Roll,5.50,5.00,0.50
+Hot Filled Rolls,Cheese N Burger Roll,5.90,5.40,0.50
+Hot Filled Rolls,Veggie Burger Roll,3.99,3.49,0.50
+Hot Filled Rolls,Fritter Roll,3.99,3.49,0.50
+Hot Filled Rolls,Doner Roll,5.20,4.70,0.50
+Vegetarian,Veggie Burger (Single),4.50,4.00,0.50
+Vegetarian,Veggie Burger (Supper),6.50,6.00,0.50
+Vegetarian,Veggie Spring Roll (Single),3.99,3.49,0.50
+Vegetarian,Veggie Spring Roll (Supper),5.99,5.49,0.50
+Vegetarian,Vegetable Pakora (Single),6.50,6.00,0.50
+Vegetarian,Vegetable Pakora (Supper),8.70,8.20,0.50
+Vegetarian,Pitta Salad (Single),3.50,3.00,0.50
+Vegetarian,Pitta Salad (Supper),5.50,5.00,0.50
+Side Orders,Mozzarella Sticks,4.50,4.00,0.50
+Side Orders,Onion Rings,4.99,4.49,0.50
+Side Orders,Battered Mushrooms,4.99,4.49,0.50
+Side Orders,Mixed Salad,3.99,3.49,0.50
+Side Orders,Fritters,5.40,4.90,0.50
+Side Orders,Mushy Peas,1.60,1.10,0.50
+Side Orders,Gravy Sauce,1.60,1.10,0.50
+Side Orders,Curry Sauce,1.60,1.10,0.50
+Side Orders,Battered Mars Bar,3.40,2.90,0.50
+Side Orders,Battered Snickers Bar,3.95,3.45,0.50
+Side Orders,Rolls,1.20,0.70,0.50
+Side Orders,Dips,0.85,0.35,0.50
+Side Orders,Jar of Mussels,4.20,3.70,0.50
+Side Orders,Chippy Sauce,4.20,3.70,0.50
+Kids Meals,Jumbo Sausage,5.50,5.00,0.50
+Kids Meals,Hamburger,5.50,5.00,0.50
+Kids Meals,Fishcake,5.50,5.00,0.50
+Kids Meals,Chicken Steak,5.50,5.00,0.50
+Kids Meals,Chicken Nuggets,5.50,5.00,0.50
+Kids Meals,Scampi,5.50,5.00,0.50
+Kids Meals,Chicken Popcorn,5.50,5.00,0.50
+Desserts,Strawberry Cheesecake,5.60,5.10,0.50
+Desserts,Tiramisu,5.60,5.10,0.50
+Desserts,Chocolate Gateau,5.30,4.80,0.50
+Desserts,Mars Bar,2.20,1.70,0.50
+Desserts,Snickers,2.20,1.70,0.50
+Desserts,Ben & Jerry's Ice Cream,7.40,6.90,0.50
+Soft Drinks,Can,1.70,1.20,0.50
+Soft Drinks,Bottle,2.60,2.10,0.50
+Soft Drinks,Big Bottle,3.99,3.49,0.50
+Soft Drinks,Water,1.70,1.20,0.50
+Chicken,Add batter to ¼ or ½ chicken (add-on),1.00,0.50,0.50

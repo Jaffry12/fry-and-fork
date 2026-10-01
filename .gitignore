@@ -1,0 +1,17 @@
+# Installed packages and build output (fry-and-fork-next/ has its own .gitignore too)
+node_modules/
+.next/
+out/
+
+# The client's original files and the design references: kept on this computer only
+/_source/
+/*.zip
+/ChatGPT Image *.png
+/*_highres.jpg
+
+# Local settings and system files
+.env*.local
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

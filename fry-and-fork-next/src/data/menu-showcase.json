@@ -1,0 +1,114 @@
+{
+  "_about": "The home page's menu showcase (the design's six cards). Items are menu keys (section/slug of the name, as in menu.ts); names and website prices come from the menu data. size = which price to show when a dish has several; suffix = a note shown after the name. Pizza shows every size as a price table. The static site's copy of this section is generated from this file.",
+  "pills": [
+    { "id": "all", "label": "All" },
+    { "id": "fish", "label": "Fish & Chips" },
+    { "id": "pizza", "label": "Pizza & Italian" },
+    { "id": "burgers", "label": "Burgers & Rolls" },
+    { "id": "kebabs", "label": "Kebabs & Chicken" },
+    { "id": "sides", "label": "Sides & Extras" },
+    { "id": "kids", "label": "Kids" }
+  ],
+  "cards": [
+    {
+      "id": "fish",
+      "title": "Fish & Chips",
+      "kicker": "A British Classic",
+      "desc": "Crispy, golden and freshly prepared with the finest fish, served with our famous chips.",
+      "section": "fish",
+      "button": "View All Fish & Chips",
+      "photo": { "src": "showcase-fish", "w": 474, "h": 320, "alt": "Battered fish with chips, mushy peas and lemon" },
+      "items": [
+        { "key": "fish/large-fish", "size": 1 },
+        { "key": "fish/fish-cake", "size": 1 },
+        { "key": "fish/scampi", "size": 1 },
+        { "key": "fish/jumbo-sausage", "size": 1 },
+        { "key": "fish/haggis-pudding", "size": 1 }
+      ]
+    },
+    {
+      "id": "pizza",
+      "title": "Pizza & Italian",
+      "kicker": "Handmade & Full of Flavour",
+      "desc": "Authentic Italian pizzas with homemade dough, fresh ingredients and classic flavours.",
+      "section": "pizza",
+      "button": "View All Pizzas",
+      "table": true,
+      "photo": { "src": "showcase-pizza", "w": 339, "h": 331, "alt": "Stone-baked pizza with cherry tomatoes and fresh basil" },
+      "items": [
+        { "key": "pizza/margherita" },
+        { "key": "pizza/hawaiian" },
+        { "key": "pizza/pacanti-pepperoni" },
+        { "key": "pizza/meat-feast" },
+        { "key": "pizza/vegetarian" }
+      ]
+    },
+    {
+      "id": "burgers",
+      "title": "Burgers & Rolls",
+      "kicker": "Succulent & Satisfying",
+      "section": "burgers",
+      "button": "View All Burgers & Rolls",
+      "items": [
+        { "key": "burgers/pounder-burger", "size": 0, "suffix": "¼lb" },
+        { "key": "burgers/pounder-cheese-burger", "size": 0, "suffix": "¼lb" },
+        { "key": "burgers/pounder-cheese-and-bacon-burger", "size": 0, "suffix": "¼lb" },
+        { "key": "burgers/chicken-burger" },
+        { "key": "burgers/zinger-burger" },
+        { "key": "rolls/hamburger-roll" },
+        { "key": "rolls/cheese-n-burger-roll" },
+        { "key": "rolls/sausage-roll" }
+      ]
+    },
+    {
+      "id": "kebabs",
+      "title": "Kebabs & Chicken",
+      "kicker": "Freshly Prepared, Great Taste",
+      "section": "kebabs",
+      "button": "View All Kebabs & Chicken",
+      "items": [
+        { "key": "kebabs/doner-kebab" },
+        { "key": "kebabs/chicken-kebab" },
+        { "key": "kebabs/mixed-kebab" },
+        { "key": "kebabs/doner-wrap" },
+        { "key": "kebabs/chicken-wrap" },
+        { "key": "kebabs/mixed-wrap" },
+        { "key": "chicken/quarter-chicken", "size": 0 },
+        { "key": "chicken/spicy-chicken-wings", "size": 0 }
+      ]
+    },
+    {
+      "id": "sides",
+      "title": "Sides & Extras",
+      "kicker": "The Perfect Additions",
+      "section": "sides",
+      "button": "View All Sides & Extras",
+      "items": [
+        { "key": "chips/medium-chips" },
+        { "key": "chips/medium-chips-and-cheese" },
+        { "key": "chips/chips-and-curry-sauce" },
+        { "key": "sides/onion-rings" },
+        { "key": "sides/battered-mushrooms" },
+        { "key": "sides/mozzarella-sticks" },
+        { "key": "italian-sides/focaccia" },
+        { "key": "sides/mushy-peas" }
+      ]
+    },
+    {
+      "id": "kids",
+      "title": "Kids Meals",
+      "kicker": "Little Favourites",
+      "section": "kids",
+      "button": "View All Kids Meals",
+      "photo": { "src": "showcase-kids", "w": 188, "h": 260, "alt": "Chicken nuggets and chips with ketchup" },
+      "items": [
+        { "key": "kids/jumbo-sausage" },
+        { "key": "kids/hamburger" },
+        { "key": "kids/fishcake" },
+        { "key": "kids/chicken-nuggets" },
+        { "key": "kids/scampi" },
+        { "key": "kids/chicken-popcorn" }
+      ]
+    }
+  ]
+}
